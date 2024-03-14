@@ -220,8 +220,8 @@ Total reclaimed space: 12.71GB
 
 - 容器时间跟宿主机时间不一致
   - 原因：宿主机采用了 CST 时区。容器采用了 UTC 时区。
-  - 复制主机的`localtime`： `docker cp /etc/localtime lnmp-nginx:/etc/`
-  - 重启容器：`docker restart lnmp-nginx`
+  - 复制主机的`localtime`： `docker cp /etc/localtime dnmp-nginx:/etc/`
+  - 重启容器：`docker restart dnmp-nginx`
 
 ## MySQL管理
 
